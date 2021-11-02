@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{3583DFED-351E-4FAF-887A-FC3730358C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorMate.Models", "Models\MentorMate.Models\MentorMate.Models.csproj", "{131B42BF-3D6E-4D82-A598-764C9A305D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorMate.Web", "Web\MentorMate.Web\MentorMate.Web.csproj", "{BA2118F9-3516-4766-824D-C73FB02DF8F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{131B42BF-3D6E-4D82-A598-764C9A305D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131B42BF-3D6E-4D82-A598-764C9A305D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131B42BF-3D6E-4D82-A598-764C9A305D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131B42BF-3D6E-4D82-A598-764C9A305D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2118F9-3516-4766-824D-C73FB02DF8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2118F9-3516-4766-824D-C73FB02DF8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2118F9-3516-4766-824D-C73FB02DF8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2118F9-3516-4766-824D-C73FB02DF8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{131B42BF-3D6E-4D82-A598-764C9A305D11} = {3583DFED-351E-4FAF-887A-FC3730358C55}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA630DBA-7D24-41D4-99E1-9A7EAA2B6E38}
+	EndGlobalSection
+EndGlobal
